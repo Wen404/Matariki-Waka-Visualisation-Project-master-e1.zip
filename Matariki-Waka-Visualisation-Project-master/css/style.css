@@ -1,0 +1,157 @@
+@font-face {
+  src: url('fonts/Nevis-Bold/nevis.ttf');
+  font-family: 'Nevis-Bold';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+
+}
+
+.matariki {
+   background-image: linear-gradient(#00537F, #FFDDE4);
+   height: 100vh;
+}
+
+.waitii {
+   background-image: linear-gradient(#15B3FF, #F8FFD4);
+   height: 100vh;
+}
+
+.waipuna-aa-rangi {
+   background-image: linear-gradient(#AFAFAF, #E2E2E2);
+   height: 100vh;
+}
+
+.tapu-aa-rangi {
+  background-image: linear-gradient(#c6d838, #48992d);
+  height: 100vh;
+
+}
+
+.waitaa {
+  background-image: linear-gradient(#6AD3FF, #D4F9FF);
+  height: 100vh;
+  color: white;
+}
+
+.ururangi {
+  background-image: linear-gradient(#62889e, #8bb3c9);
+  height: 100vh;
+  color: #DAE3E5;
+}
+
+.scene {
+    /*background-image: url("img/Asset 5.svg");*/
+    position: absolute;
+    bottom: 0;
+
+}
+
+.container {
+  background-image: url("img/Tapu-aa-nuku1.svg");
+  /*background-image: url("img/tapu-aa-nuku1.svg");*/
+  background-position: center center;
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  /* Makes the image fixed in the viewport so that it doesn't move when scrolling */
+  background-attachment: fixed;
+  /* This is what makes the background image rescale based on its container's size.
+  It will cut off parts of the container to fit */
+  background-size: cover;
+
+
+  height: 100vh;
+
+}
+
+.top-bar {
+  display: flex;
+  /*
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 50;*/
+
+}
+
+.Title {
+  width: 500px;
+}
+
+.nav{
+  margin-left: auto;
+  margin-right: 18px;
+}
+
+.navcircle {
+  margin-top: 30px;
+  fill: none;
+
+
+
+}
+
+.navcircle:hover {
+  fill: white;
+
+  cursor: pointer;
+
+}
+
+.top-bar {
+
+  z-index: -1;
+}
+
+h1 {
+  font-family: "Segoe UI";
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: 18px;
+  margin-bottom: 0;
+  margin-right: 0;
+  font-size: 26px;
+  letter-spacing: 7px;
+  font-weight: normal;
+  color: white;
+
+
+
+}
+
+p {
+    font-family: "Segoe UI";
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-left: 18px;
+    font-size: 16px;
+    letter-spacing: 7px;
+    font-weight: normal;
+    color: white;
+}
+
+.nav {
+  float: right;
+}
+
+.tapu h1 {
+  color: #1A1A1A;
+}
+
+.waitii h1 {
+  color: #FFFFFF;
+}
+
+.waipuna-aa-rangi h1 {
+  color: #191C1E;
+}
+
+#star {
+  display: block;
+  margin: auto;
+  margin-top: 12vh;
+  width: 25%;
+}
